@@ -2,18 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement
+public abstract class Movement
 {
 
     protected Vector2 start;
     protected Vector2 end;
 
-    void Move(Rigidbody2D rb)
-    {
-        //empty
-    }
+    public abstract void Move(Rigidbody2D rb);
 
-    void Update(Vector2 start, Vector2 end)
+    public void Update(Vector2 start, Vector2 end)
     {
         this.start = start;
         this.end = end;
