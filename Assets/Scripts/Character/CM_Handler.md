@@ -18,6 +18,9 @@ the power of player's movement.
 `Rigidbody2D rb`  
 reference to the rigidbody component.
 
+`Vector2 MoveDir`  
+the direction of the vector.
+
 ## Function
 
 ### Public
