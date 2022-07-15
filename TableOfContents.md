@@ -1,4 +1,5 @@
 # Table of Contents
 
 - Character
-    - [CM_Handler](/Assets/Scripts/Character/CM_Handler.md)
+    - Movement
+        - [Movement](/Assets/Scripts/Character/Movement/Movement.md)
