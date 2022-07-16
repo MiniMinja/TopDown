@@ -20,5 +20,13 @@ reference to the rigidbody component
 `void Start()`  
 spawns in `Rigidbody2d rb`
 
+<<<<<<< HEAD
 `void Update()`
 creates new vectors 
+=======
+`void Update()`  
+defines `Vector2 dir` based on the user's input. `data.movementScript` is updated based on the position's transformation.
+
+`void FixedUpdate()`  
+updates the character's movement at a rate where it corresponds to user's imput 
+>>>>>>> cfff4a0bd7d9e654b18b9749ce31b0c6ece18420

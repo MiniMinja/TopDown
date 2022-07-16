@@ -34,4 +34,5 @@ public class WeaponHitboxActivator : MonoBehaviour
             currentHitbox = gunHitbox;
         }
     }
+
 }
