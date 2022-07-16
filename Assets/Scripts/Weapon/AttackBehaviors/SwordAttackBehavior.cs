@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwordAttackBehavior : GeneralAttackBehavior
+public class SwordAttackBehavior : GeneralAttackBehaviour
 {
 
     public float angleOffset;
