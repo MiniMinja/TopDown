@@ -20,11 +20,11 @@ destination of the object.
 
 ### Public
 
+`abstract void Move(RigidBody2D rb)`  
+undefined
+
+`void Update(Vector2 start, Vector2 end)`  
+resets the object's start and end
 
 ### Private 
 
-`Move(RigidBody2D rb)`  
-undefined
-
-`Update(Vector2 start, Vector2 end)`  
-resets the object's start and end
