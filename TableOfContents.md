@@ -6,3 +6,4 @@
     - Player
         - [Player](/Assets/Scripts/Character/Player/PlayerMovement.md)
     - [CharacterData](/Assets/Scripts/Character/CharacterData.md)
+    - [CharacterHandler](/Assets/Scripts/Character/CharacterHandler.md)
