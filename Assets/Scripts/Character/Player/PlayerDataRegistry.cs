@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerDataRegistry : MonoBehaviour
 {
 
+    public CharacterData pd;
     public Camera cam;
     float direction;
 
@@ -23,5 +24,10 @@ public class PlayerDataRegistry : MonoBehaviour
     public float GetDirection()
     {
         return direction;
+    }
+
+    public CharacterData GetCharacterData()
+    {
+        return pd;
     }
 }
