@@ -10,11 +10,8 @@ this script sets a movement template for any moving object (GetAxis())
 
 ### Protected
 
-`Vector2 start`  
-"0" positon of object.
-
-`Vector2 end`  
-destination of the object.
+`float movespeed`  
+movement speed of an object (One of the attributes in [CharacterData](/Assets/Scripts/Character/CharacterData.md))
 
 ## Function
 
@@ -23,8 +20,8 @@ destination of the object.
 `abstract void Move(RigidBody2D rb)`  
 undefined
 
-`void Update(Vector2 start, Vector2 end)`  
-resets the object's start and end
+`virtual void SetMovespeed(float ms)`  
+gives a defined movement speed
 
 ### Private 
 

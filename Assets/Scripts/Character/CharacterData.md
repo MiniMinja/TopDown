@@ -28,7 +28,7 @@ the character's resistance to stuns
 the character's damage mitigation 
 
 `float healthRegen`  
-how much the character regenerates health over time
+how much the character regenerates health over time (or heals once item is consumed -- undecided)
 
 `string movementType`  
 holds the "key" to the 3 types of movements: the movement of [Player](/Assets/Scripts/Character/Player/), Enemy (Not defined yet), and Boss (Not defined yet). Each movementObject keys are "player", "enemy", "boss", respectively.
