@@ -7,5 +7,6 @@
 !Assets/Scripts/Character
 !Assets/Scripts/Character/Movement
 !Assets/Scripts/Character/Player
+!Assets/Scripts/Character/Enemy
 !Assets/Scripts/Weapon
 !Assets/Scripts/Weapon/AttackBehaviors

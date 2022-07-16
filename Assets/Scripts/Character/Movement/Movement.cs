@@ -4,15 +4,11 @@ using UnityEngine;
 
 public abstract class Movement
 {
-
-    protected Vector2 start;
-    protected Vector2 end;
+    protected float movespeed;
 
     public abstract void Move(Rigidbody2D rb);
-
-    public void Update(Vector2 start, Vector2 end)
+    public virtual void SetMovespeed(float ms)
     {
-        this.start = start;
-        this.end = end;
+        this.movespeed = ms;
     }
 }

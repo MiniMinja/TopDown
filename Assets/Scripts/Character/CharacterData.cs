@@ -18,12 +18,15 @@ public class CharacterData : ScriptableObject
     
     public void OnEnable()
     {
-        if(movementType == "player")
+        if(movementType == "directional")
         {
-            PlayerMovement pm = PlayerMovement.GetInstance();
-            pm.SetMovePower(movespeed);
-            movementScript = pm;
+            movementScript = new DirectionalMovement();
         }
+        else if(movementType == "destination")
+        {
+            movementScript = new DestinationMovement();
+        }
+        movementScript.SetMovespeed(movespeed);
         Debug.Log("movementScript set to: " + movementScript);
     }
 }
