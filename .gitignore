@@ -1,0 +1,11 @@
+*
+!.gitignore
+!*.md
+!*.cs
+!Assets
+!Assets/Scripts
+!Assets/Scripts/Character
+!Assets/Scripts/Character/Movement
+!Assets/Scripts/Character/Player
+!Assets/Scripts/Weapon
+!Assets/Scripts/Weapon/AttackBehaviors
