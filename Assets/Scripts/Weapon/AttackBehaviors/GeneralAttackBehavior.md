@@ -20,8 +20,8 @@ the magnitude of an attack
 
 ### Private
 
-`bool deactivateLaunched` 
-boolean if the weapon is not attacking
+`bool deactivateLaunched`  
+boolean function if the weapon is not attacking
 
 ## Function
 
@@ -30,9 +30,16 @@ boolean if the weapon is not attacking
 `virtual void Start()`  
 intializes variables above.
 
-`virtual void Update()`
-runs `deactivateLaunced` boolean and sets a new vector
+`virtual void Update()`  
+runs `deactivateLaunched` boolean and creates a new vector.
 
 ### Private
 
-`void OnTriggerEnter2D(Collider2D collision)
+`void OnTriggerEnter2D(Collider2D collision)`  
+when the hitbox of a weapon or projectile hits an object.
+
+`void OnTriggerExit2D(Collider2D colliison)`  
+Unidentified
+
+### Public
+`void SetDirection(float angle)`

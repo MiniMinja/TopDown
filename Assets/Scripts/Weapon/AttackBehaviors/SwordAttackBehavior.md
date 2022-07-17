@@ -4,7 +4,7 @@
 [back to Table of Contents](/TableOfContents.md)
 
 ## Description   
-this script defines the general motion and damage of a sword attack.
+this script defines the motion and damage of a sword attack.
 
 ## Data
 
@@ -32,4 +32,4 @@ intializes variables above.
 transforms the rotation of a sword swing based on the direction and angle.
 
 `void onTriggerEnter2D(Collider2D collision)`  
-when the sword's hitbox collides with an object, the targeted object takes damage baesed on the character's `attackPower` ([CharacterData](/Assets/Scripts/Character/CharacterData.md))
+when the sword's hitbox collides with an object, the targeted object loses health based on the character's `attackPower` ([CharacterData](/Assets/Scripts/Character/CharacterData.md))

@@ -19,7 +19,7 @@ this script defines how the player activates its attacks.
 holds the "key" to 2 types of weapons. [Sword](/Assets/Scripts/Weapon/Sword/SwordAttackBehavior.md) and gun.
 
 `int currWeaponIndex`  
-the current weapon the user has equipted
+the current weapon the user has equipted.
 
 `bool pauseRotate`  
 boolean function if the user is allowed to switch weapons.
@@ -28,10 +28,10 @@ boolean function if the user is allowed to switch weapons.
 activates the weapon's hitbox.
 
 `bool timeout`  
-boolean function if the user can use a weapon
+boolean function if the user can use a weapon.
 
 `float timeduration`  
-the duration of an attack
+the duration of an attack.
 
 ## Function
 
@@ -43,7 +43,7 @@ decides which weapon to swap depending on the `currWeaponIndex`.
 ### Private 
 
 `void Start()`  
-creates a secondhand activator that chooses a weapon with hitbox when 
+creates a secondhand activator that chooses a weapon with hitbox when initialized.
 
 `void Update()`  
  updates the user's cooldown to attack and switch weapons every frame.

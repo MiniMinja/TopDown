@@ -13,4 +13,4 @@
     - Weapon
         - [SwordAttackBehavior](/Assets/Scripts/Weapon/Sword/SwordAttackBehavior.md)
         - [GeneralAttackBehaviors](/Assets/Scripts/Weapon/AttackBehaviors/GeneralAttackBehavior.md)
-            
+        - [BulletBehavior](/Assets/Scripts/Weapon/AttackBehaviors/BulletBehavior.md)
