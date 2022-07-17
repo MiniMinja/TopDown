@@ -4,7 +4,7 @@
 [back to Table of Contents](/TableOfContents.md)
 
 ## Description
-this script defines an object's movement with a start and destination.
+this script defines an object's movement based on its destination.
 
 ## Data
 

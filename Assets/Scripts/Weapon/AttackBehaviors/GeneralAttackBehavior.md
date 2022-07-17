@@ -42,4 +42,11 @@ when the hitbox of a weapon or projectile hits an object.
 Unidentified
 
 ### Public
-`void SetDirection(float angle)`
+`void SetDirection(float angle)`  
+the direction of an attack is based off of an angle. 
+
+`void DestroyInSeconds()`  
+initiates the destruction of the attack (`gameObject`) when it is deactivated.
+
+`IEnumerator SelfDestruct`  
+After a certain time, the `gameObject` is destroyed. 

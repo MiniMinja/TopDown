@@ -4,7 +4,7 @@
 [back to Table of Contents](/TableOfContents.md)
 
 ## Description
-this script is a singleton that defines the player's movement.
+this script defines the player's movement based on the user's input. 
 
 ## Data
 
@@ -28,10 +28,10 @@ the character's movements from the user's input
 ### Private
 
 `void Start()`  
-identifies the player and applies `movementScript` to the rigidbody component. 
+initializes the variables above.
 
 `void Update()`  
 every frame, the user's (x,y) directional input creates new [Vector 2 dir](/Assets/Scripts/Character/Movement/DestinationMovement.md) with the magnitude and angle. 
 
 `void FixedUpdate()`  
-with the `data.movementScript`, the `Rigidbody2D rb` is shown moving. 
+calculations done in `void Update()` is updated into `data.movementScript`, which commands the `rigidbody2D` to move. 

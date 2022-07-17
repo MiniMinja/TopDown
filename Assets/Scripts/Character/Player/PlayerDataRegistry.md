@@ -27,7 +27,7 @@ retrives the direction the camera is going to move.
 ### Private
 
 `void Start()`  
-the application is started.
+initializes the variables above.
 
 `void Update()`  
 every frame, [Vector2 dir](/Assets/Scripts/Character/Player/PlayerMovement.md) is updated with a new directions.
